@@ -1446,8 +1446,7 @@ InsertObserversHelper::insertObserversFor(
                 aggregated_output_observe_state ==
                     subblock_output_observe_state,
                 "branches for `if` should return values that are observed "
-                "consistently, if node:",
-                *n);
+                "consistently");
           } else {
             aggregated_output_observe_state = subblock_output_observe_state;
           }
